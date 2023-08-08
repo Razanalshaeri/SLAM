@@ -14,6 +14,8 @@ cd ~/catkin_ws && catkin_make
 ### Launch Simulation World:
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
+<img width="911" alt="Gazebo" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/a7d782a1-c474-401c-aa51-78f71b44bed1">
+
 
 
 
