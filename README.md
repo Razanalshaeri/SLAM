@@ -25,6 +25,7 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 <img width="328" alt="Terminal" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/8f60338f-0b99-45fd-9f39-6aede9c10daf">
 ## 5-Save Map:
 rosrun map_server map_saver -f ~/map
+<img width="287" alt="Save map" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/5115ee27-15f4-4b8e-8309-51f653251770">
 
 
 
