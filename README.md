@@ -15,6 +15,11 @@ cd ~/catkin_ws && catkin_make
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 <img width="911" alt="Gazebo" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/a7d782a1-c474-401c-aa51-78f71b44bed1">
+## 3-SLAM-Simulation:
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+
+
 
 
 
