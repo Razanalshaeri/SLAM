@@ -18,6 +18,10 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 ## 3-SLAM-Simulation:
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+<img width="926" alt="Turtelbot3" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/1d255837-b8d4-4c05-a6b1-c60766ca5918">
+## 4-Run Teleoperation Node:
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 
 
