@@ -22,8 +22,9 @@ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ## 4-Run Teleoperation Node:
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-
-
+<img width="328" alt="Terminal" src="https://github.com/Razanalshaeri/SLAM/assets/135154136/8f60338f-0b99-45fd-9f39-6aede9c10daf">
+## 5-Save Map:
+rosrun map_server map_saver -f ~/map
 
 
 
